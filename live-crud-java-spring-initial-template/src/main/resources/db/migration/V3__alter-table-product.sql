@@ -1,0 +1,2 @@
+ALTER TABLE PRODUCT
+ALTER COLUMN price_in_cents TYPE INTEGER USING price_in_cents::INTEGER;

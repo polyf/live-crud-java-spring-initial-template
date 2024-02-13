@@ -1,0 +1,2 @@
+ALTER TABLE PRODUCT
+ALTER COLUMN price_in_cents TYPE NUMERIC USING price_in_cents::NUMERIC;
